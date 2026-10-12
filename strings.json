@@ -1,0 +1,23 @@
+{
+  "en": {
+    "activation_modifier_name": "Hold to select alternative terminals",
+    "activation_modifier_tooltip": "All three options have the same effect: hold the chosen modifier while adding a stop to select alternatives. Ctrl/Shift/Alt are the default bindings; actual keys follow the named game action. Ordinary clicks keep the base game behavior.",
+    "activation_ctrl": "Ctrl (bound to Secondary Mode)",
+    "activation_shift": "Shift (bound to Precision Mode)",
+    "activation_alt": "Alt (bound to Surface Snapping)"
+  },
+  "zh_CN": {
+    "activation_modifier_name": "自动备用触发键",
+    "activation_modifier_tooltip": "三项效果相同：按住触发键新增站点才自动选备用，普通点击保持原版行为。Ctrl/Shift/Alt 为默认键位；若修改过对应游戏动作的绑定，请使用修改后的按键。",
+    "activation_ctrl": "Ctrl（绑定次要模式键）",
+    "activation_shift": "Shift（绑定精确模式键）",
+    "activation_alt": "Alt（绑定表面吸附键）"
+  },
+  "zh": {
+    "activation_modifier_name": "自动备用触发键",
+    "activation_modifier_tooltip": "三项效果相同：按住触发键新增站点才自动选备用，普通点击保持原版行为。Ctrl/Shift/Alt 为默认键位；若修改过对应游戏动作的绑定，请使用修改后的按键。",
+    "activation_ctrl": "Ctrl（绑定次要模式键）",
+    "activation_shift": "Shift（绑定精确模式键）",
+    "activation_alt": "Alt（绑定表面吸附键）"
+  }
+}

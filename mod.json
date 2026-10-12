@@ -1,0 +1,22 @@
+{
+  "modId": "spy_auto_alternative_terminals",
+  "revision": 1,
+  "severityAdd": "Warning",
+  "severityRemove": "None",
+  "visible": true,
+  "cosmetic": false,
+  "params": [
+    {
+      "key": "activationModifier",
+      "name": "activation_modifier_name",
+      "tooltip": "activation_modifier_tooltip",
+      "uiType": "ComboBox",
+      "values": [
+        "activation_ctrl",
+        "activation_shift",
+        "activation_alt"
+      ],
+      "defaultIndex": 0
+    }
+  ]
+}

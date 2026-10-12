@@ -1,0 +1,31 @@
+{
+  "name": "Auto Alternative Terminals / 自动备用站台",
+  "summary": "Hold the chosen modifier while adding a stop to select alternative terminals.",
+  "description": "Hold the activation modifier while adding a line stop to select alternative terminals. Ordinary clicks retain the base game behavior. Supports the first stop of a new line, appending stops and inserting stops in the middle.\n\nHow to use\nEnable the mod. Hold Ctrl while clicking the station to add alternatives; click normally for the base game behavior. The mod parameter offers Ctrl (bound to Secondary Mode), Shift (bound to Precision Mode), or Alt (bound to Surface Snapping). Actual keys follow your game bindings. Changing the option requires reloading the game. Shift also has the base game’s Add Waypoint behavior in the line editor, so Ctrl is recommended.\n\nAll three options perform the same mod action; only the activation binding differs. Ctrl, Shift and Alt are the default keys. If you change the corresponding game action binding, use the reassigned key.\n\nFeatures\n• Keeps the primary terminal assigned by the base game.\n• Preserves the base game’s automatic cargo selection and loading configuration.\n• Applies defaults only to newly added stops; existing stops are not changed in bulk.\n• You can deselect unwanted alternatives afterwards. Further editing will not force them back on.\n• Supports repeated visits to the same station on one line.\n\nTerminal selection\nUses the base game’s alternative-terminal selection conditions: the same station group, excluding the primary terminal. Selection does not guarantee that every alternative is reachable on the current line. If a complex station group causes path warnings, deselect unsuitable alternatives manually.\n\nSaved games and removal\nCan be enabled for existing saved games. Stops added before enabling the mod keep their current settings. Removing the mod stops automatic selection; alternatives already saved in the line configuration remain.\n\nScript-only mod. No other mods are required.\n\nProject and development\nRepository: https://github.com/spy20051623/spy_auto_alternative_terminals\nThis mod was developed by spy in collaboration with AI.",
+  "localization": {
+    "en": {
+      "name": "Auto Alternative Terminals / 自动备用站台",
+      "summary": "Hold the chosen modifier while adding a stop to select alternative terminals.",
+      "description": "Hold the activation modifier while adding a line stop to select alternative terminals. Ordinary clicks retain the base game behavior. Supports the first stop of a new line, appending stops and inserting stops in the middle.\n\nHow to use\nEnable the mod. Hold Ctrl while clicking the station to add alternatives; click normally for the base game behavior. The mod parameter offers Ctrl (bound to Secondary Mode), Shift (bound to Precision Mode), or Alt (bound to Surface Snapping). Actual keys follow your game bindings. Changing the option requires reloading the game. Shift also has the base game’s Add Waypoint behavior in the line editor, so Ctrl is recommended.\n\nAll three options perform the same mod action; only the activation binding differs. Ctrl, Shift and Alt are the default keys. If you change the corresponding game action binding, use the reassigned key.\n\nFeatures\n• Keeps the primary terminal assigned by the base game.\n• Preserves the base game’s automatic cargo selection and loading configuration.\n• Applies defaults only to newly added stops; existing stops are not changed in bulk.\n• You can deselect unwanted alternatives afterwards. Further editing will not force them back on.\n• Supports repeated visits to the same station on one line.\n\nTerminal selection\nUses the base game’s alternative-terminal selection conditions: the same station group, excluding the primary terminal. Selection does not guarantee that every alternative is reachable on the current line. If a complex station group causes path warnings, deselect unsuitable alternatives manually.\n\nSaved games and removal\nCan be enabled for existing saved games. Stops added before enabling the mod keep their current settings. Removing the mod stops automatic selection; alternatives already saved in the line configuration remain.\n\nScript-only mod. No other mods are required.\n\nProject and development\nRepository: https://github.com/spy20051623/spy_auto_alternative_terminals\nThis mod was developed by spy in collaboration with AI."
+    },
+    "zh_CN": {
+      "name": "Auto Alternative Terminals / 自动备用站台",
+      "summary": "按住触发键新增站点时自动勾选备用站台；普通点击保持原版行为。",
+      "description": "按住触发键新增线路停靠站时，把同一站组中除主站台以外的站台加入备用列表；普通点击保持原版行为。新建线路的第一站、末尾新增和中间插入均支持。\n\n使用方式\n启用模组后，默认按住 Ctrl 再点击要新增的车站，即可选中备用站台；不按触发键时按原版方式处理。模组参数“自动备用触发键”可选择Ctrl（绑定次要模式键）、Shift（绑定精确模式键）或Alt（绑定表面吸附键）。实际按键遵循游戏对应动作的绑定，更改参数后重新加载游戏。Shift 在原版线路编辑器中也用于优先添加途经点，建议使用默认 Ctrl。\n\n三项对本模组的效果完全相同，区别仅在触发键。Ctrl、Shift、Alt 是默认键位；若在游戏设置中更改了对应动作的绑定，请使用修改后的按键。\n\n功能特点\n• 保留原版确定的主站台。\n• 保留原版装载物品自动勾选和装载配置。\n• 只为新添加的停靠站设置默认备用列表，不批量修改已有站点。\n• 添加后可以手动取消不需要的备用站台，后续编辑不会强制恢复。\n• 支持同一车站在一条线路中多次停靠。\n\n站台选择范围\n按照原版备用站台选择条件，选择同一站组中除主站台以外的站台。自动勾选不代表每个候选站台都能在当前线路上到达；复杂站组出现路径警告时，请手动取消不合适的备用站台。\n\n存档与移除\n可以为已有存档启用模组，启用前的停靠站保持原设置。移除模组后不再自动勾选，已经保存在原版线路配置中的备用站台仍会保留。\n\n纯脚本模组，不需要其他模组作为依赖。\n\n项目与开发\n仓库地址：https://github.com/spy20051623/spy_auto_alternative_terminals\n本模组由 spy 与 AI 协作开发。"
+    },
+    "zh": {
+      "name": "Auto Alternative Terminals / 自动备用站台",
+      "summary": "按住触发键新增站点时自动勾选备用站台；普通点击保持原版行为。",
+      "description": "按住触发键新增线路停靠站时，把同一站组中除主站台以外的站台加入备用列表；普通点击保持原版行为。新建线路的第一站、末尾新增和中间插入均支持。\n\n使用方式\n启用模组后，默认按住 Ctrl 再点击要新增的车站，即可选中备用站台；不按触发键时按原版方式处理。模组参数“自动备用触发键”可选择Ctrl（绑定次要模式键）、Shift（绑定精确模式键）或Alt（绑定表面吸附键）。实际按键遵循游戏对应动作的绑定，更改参数后重新加载游戏。Shift 在原版线路编辑器中也用于优先添加途经点，建议使用默认 Ctrl。\n\n三项对本模组的效果完全相同，区别仅在触发键。Ctrl、Shift、Alt 是默认键位；若在游戏设置中更改了对应动作的绑定，请使用修改后的按键。\n\n功能特点\n• 保留原版确定的主站台。\n• 保留原版装载物品自动勾选和装载配置。\n• 只为新添加的停靠站设置默认备用列表，不批量修改已有站点。\n• 添加后可以手动取消不需要的备用站台，后续编辑不会强制恢复。\n• 支持同一车站在一条线路中多次停靠。\n\n站台选择范围\n按照原版备用站台选择条件，选择同一站组中除主站台以外的站台。自动勾选不代表每个候选站台都能在当前线路上到达；复杂站组出现路径警告时，请手动取消不合适的备用站台。\n\n存档与移除\n可以为已有存档启用模组，启用前的停靠站保持原设置。移除模组后不再自动勾选，已经保存在原版线路配置中的备用站台仍会保留。\n\n纯脚本模组，不需要其他模组作为依赖。\n\n项目与开发\n仓库地址：https://github.com/spy20051623/spy_auto_alternative_terminals\n本模组由 spy 与 AI 协作开发。"
+    }
+  },
+  "authors": [
+    {
+      "name": "spy",
+      "role": "CREATOR"
+    }
+  ],
+  "tags": [
+    "Script Mod"
+  ]
+}
