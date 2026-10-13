@@ -1,21 +1,28 @@
 {
   "en": {
-    "activation_modifier_name": "Hold to select alternative terminals",
-    "activation_modifier_tooltip": "All three options have the same effect: hold the chosen modifier while adding a stop to select alternatives. Ctrl/Shift/Alt are the default bindings; actual keys follow the named game action. Ordinary clicks keep the base game behavior.",
+    "activation_modifier_name": "Key for automatic alternative terminals",
+    "activation_modifier_tooltip": "Hold the selected key while adding a stop to select alternative terminals. Regular clicks add stops normally. If you remapped the corresponding game action, use its new key.",
     "activation_ctrl": "Ctrl (bound to Secondary Mode)",
     "activation_shift": "Shift (bound to Precision Mode)",
     "activation_alt": "Alt (bound to Surface Snapping)"
   },
+  "fr": {
+    "activation_modifier_name": "Touche de sélection des terminaux alternatifs",
+    "activation_modifier_tooltip": "Maintenez la touche choisie pendant l'ajout d'un arrêt pour sélectionner les terminaux alternatifs. Un clic normal ajoute l'arrêt comme d'habitude. Si vous avez modifié la touche de l'action correspondante dans le jeu, utilisez le nouveau raccourci.",
+    "activation_ctrl": "Ctrl – mode secondaire",
+    "activation_shift": "Maj (Shift) – mode précision",
+    "activation_alt": "Alt – accrochage aux surfaces"
+  },
   "zh_CN": {
-    "activation_modifier_name": "自动备用触发键",
-    "activation_modifier_tooltip": "三项效果相同：按住触发键新增站点才自动选备用，普通点击保持原版行为。Ctrl/Shift/Alt 为默认键位；若修改过对应游戏动作的绑定，请使用修改后的按键。",
+    "activation_modifier_name": "自动选择备用站台的按键",
+    "activation_modifier_tooltip": "按住所选按键新增停靠站时，自动勾选备用站台；普通点击照常添加。若修改过对应游戏动作的键位，请使用修改后的按键。",
     "activation_ctrl": "Ctrl（绑定次要模式键）",
     "activation_shift": "Shift（绑定精确模式键）",
     "activation_alt": "Alt（绑定表面吸附键）"
   },
   "zh": {
-    "activation_modifier_name": "自动备用触发键",
-    "activation_modifier_tooltip": "三项效果相同：按住触发键新增站点才自动选备用，普通点击保持原版行为。Ctrl/Shift/Alt 为默认键位；若修改过对应游戏动作的绑定，请使用修改后的按键。",
+    "activation_modifier_name": "自动选择备用站台的按键",
+    "activation_modifier_tooltip": "按住所选按键新增停靠站时，自动勾选备用站台；普通点击照常添加。若修改过对应游戏动作的键位，请使用修改后的按键。",
     "activation_ctrl": "Ctrl（绑定次要模式键）",
     "activation_shift": "Shift（绑定精确模式键）",
     "activation_alt": "Alt（绑定表面吸附键）"
