@@ -1,38 +1,72 @@
-<h2>中文说明</h2>
-<p>在线路中新增停靠站时，按住触发键点击车站，就会自动勾选备用站台；普通点击照常添加站点。新建线路的第一站、末尾添加和中途插入都支持。</p>
-<h3>使用方式</h3>
-<p>默认触发键为 Ctrl。可以在模组选项中改为 Shift 或 Alt。Ctrl、Shift、Alt 分别对应游戏中的“次要模式”“精确模式”“表面吸附”动作。如果改过这些动作的键位，请使用修改后的按键。更改模组选项后需重新加载游戏。Shift 在线路编辑器中还会优先添加途经点，建议使用 Ctrl。</p>
-<h3>选择范围</h3>
-<p>模组会选择同一车站内除主站台外的站台。部分站台可能无法从当前线路到达；如出现路径警告，请取消勾选不合适的站台。</p>
-<p>游戏选定的主站台、自动勾选的货物和装载设置会保留。模组只处理新添加的站点，不改动已有站点。之后可以手动取消备用站台，后续编辑也不会重新勾选。</p>
+<p>Available languages: 中文 / English / Français</p>
+<h2 id="zh-cn">中文 · 自动备用站台</h2>
+<p>模组仅在为线路新增停靠站时触发，可一次勾选该车站的其他站台作为备用。</p>
+<h3>添加方式</h3>
+<p>点击车站或用手柄确认添加时：</p>
+<ul>
+<li><strong>未按住触发按键：</strong>按原版方式添加停靠站，模组不自动勾选备用站台。</li>
+<li><strong>按住触发按键：</strong>添加停靠站时，模组会自动勾选该车站的其他站台作为备用。</li>
+</ul>
+<h3>触发按键</h3>
+<ul>
+<li><strong>键鼠：</strong>默认使用 Ctrl，可在模组选项的「键盘触发按键」中改为 Alt。</li>
+<li><strong>手柄：</strong>PlayStation 使用 R1，Xbox 使用 RB。按键固定，不可配置，也不受键盘选项影响。</li>
+</ul>
+<p>R1／RB 保留原版新增途经点的功能。添加途经点不会触发备用站台选择。</p>
+<h3>使用提示</h3>
+<p>主站台分配、自动货物选择和装载设置仍由原版处理。模组不会在后续编辑时重新勾选你手动取消的备用站台。</p>
+<p>若出现路径警告，请检查并取消当前线路无法到达的备用站台。</p>
 <h3>安装与存档</h3>
-<p>本模组不依赖其他模组，已有存档也可直接启用。移除模组后，不会再自动勾选备用站台；此前保存的设置仍会保留。</p>
+<p>本模组不依赖其他模组，可在已有存档中启用。移除模组后，已保存的备用站台设置仍会保留。</p>
+<p><strong>兼容性提示：</strong>从含 Shift 选项的旧版升级后，键盘触发按键默认恢复为 Ctrl；若原先使用 Alt，请在模组选项中重新选择 Alt。</p>
 <h3>项目与开发</h3>
-<p>仓库地址：<a href="https://github.com/spy20051623/spy_auto_alternative_terminals">https://github.com/spy20051623/spy_auto_alternative_terminals</a></p>
+<p><a href="https://github.com/spy20051623/spy_auto_alternative_terminals">GitHub 仓库</a></p>
 <p>本模组由 spy 与 AI 协作开发。</p>
 <hr>
-<h2>English</h2>
-<p>Hold the activation key while clicking a station to add a stop, and the mod selects its alternative terminals. A regular click adds the stop normally. This works for the first stop on a new line, stops added at the end, and stops inserted between others.</p>
-<h3>How to use</h3>
-<p>Ctrl is the default. You can choose Shift or Alt in the mod options. Ctrl, Shift, and Alt correspond to the game's Secondary Mode, Precision Mode, and Surface Snapping actions, respectively. If you've remapped one of those actions, use its new key. Reload the game after changing the mod option. Shift also prioritizes adding a waypoint in the line editor, so Ctrl is recommended.</p>
-<h3>Terminal selection</h3>
-<p>The mod selects other terminals at the same station, excluding the primary terminal. Some may not be reachable on the current line. If you see a path warning, deselect the unsuitable terminals.</p>
-<p>The game's selected primary terminal, cargo selections, and loading settings remain unchanged. Only the new stop gets alternatives; existing stops stay as they are. You can deselect alternatives later, and editing the line won't select them again.</p>
+<h2 id="en">English · Auto Alternative Terminals</h2>
+<p>Automatically select alternative terminals when adding a station stop to a line. The mod only acts on the stop being added.</p>
+<h3>Adding a stop</h3>
+<p>When you click a station or confirm it with a controller:</p>
+<ul>
+<li><strong>Without holding the activation key or button: </strong>The stop is added as in the base game. The mod does not automatically select alternative terminals.</li>
+<li><strong>While holding the activation key or button: </strong>The stop is added and the mod automatically selects the station's other terminals as alternatives.</li>
+</ul>
+<h3>Activation controls</h3>
+<ul>
+<li><strong>Keyboard and mouse: </strong>Ctrl by default. To use Alt, select it under Keyboard activation key in the mod options.</li>
+<li><strong>Controller: </strong>R1 on PlayStation or RB on Xbox. This button cannot be changed and is unaffected by the keyboard option.</li>
+</ul>
+<p>R1 / RB retains its usual function for adding waypoints. Adding a waypoint does not trigger alternative terminal selection.</p>
+<h3>Usage notes</h3>
+<p>The game still handles primary terminal assignment, automatic cargo selection and loading settings. During later edits, the mod will not reselect alternatives you have manually deselected.</p>
+<p>If a route warning appears, check the alternative terminals and deselect any that the line cannot reach.</p>
 <h3>Installation and saves</h3>
-<p>This mod does not depend on any other mods and works with existing saves. Removing it stops automatic selection; previously saved alternatives remain.</p>
+<p>No other mods are required. You can enable this mod in existing saves. Saved alternative terminal settings remain after removing the mod.</p>
+<p><strong>Compatibility note: </strong>When upgrading from a version that offered Shift, the keyboard activation key defaults to Ctrl. If you previously used Alt, select Alt again in the mod options.</p>
 <h3>Project and development</h3>
-<p>Repository: <a href="https://github.com/spy20051623/spy_auto_alternative_terminals">https://github.com/spy20051623/spy_auto_alternative_terminals</a></p>
-<p>This mod was developed by spy in collaboration with AI.</p>
+<p><a href="https://github.com/spy20051623/spy_auto_alternative_terminals">GitHub repository</a></p>
+<p>Developed by spy in collaboration with AI.</p>
 <hr>
-<h2>Français</h2>
-<p>Lorsque vous ajoutez un arrêt à une ligne, maintenez la touche choisie enfoncée et cliquez sur la station : les terminaux alternatifs sont alors sélectionnés automatiquement. Un clic normal ajoute l'arrêt comme d'habitude. Cela fonctionne pour le premier arrêt d'une nouvelle ligne, pour un arrêt ajouté à la fin ou inséré entre deux arrêts.</p>
-<h3>Utilisation</h3>
-<p>La touche par défaut est Ctrl. Vous pouvez choisir Maj (Shift) ou Alt dans les options du mod. Ctrl, Maj et Alt correspondent respectivement aux actions « mode secondaire », « mode précision » et « accrochage aux surfaces » du jeu. Si vous avez modifié le raccourci d'une de ces actions, utilisez la nouvelle touche. Rechargez le jeu après avoir changé cette option. Dans l'éditeur de lignes, Maj privilégie aussi l'ajout de points de passage ; Ctrl est donc recommandé.</p>
-<h3>Choix des terminaux</h3>
-<p>Le mod sélectionne les autres terminaux de la même station, à l'exception du terminal principal. Certains peuvent être inaccessibles sur la ligne actuelle. Si un avertissement d'itinéraire apparaît, désélectionnez les terminaux concernés.</p>
-<p>Le terminal principal, la sélection du fret et les paramètres de chargement définis par le jeu restent inchangés. Le mod ne modifie que le nouvel arrêt, sans toucher aux arrêts existants. Vous pouvez ensuite retirer des terminaux alternatifs ; ils ne seront pas sélectionnés à nouveau lors d'une modification ultérieure de la ligne.</p>
+<h2 id="fr">Français · Sélection automatique des terminaux alternatifs</h2>
+<p>Sélectionnez automatiquement les terminaux alternatifs lors de l'ajout d'un arrêt à une ligne. Le mod agit uniquement sur l'arrêt que vous ajoutez.</p>
+<h3>Ajouter un arrêt</h3>
+<p>Lorsque vous cliquez sur une station ou la validez à la manette :</p>
+<ul>
+<li><strong>Sans maintenir la touche ou le bouton d&#x27;activation : </strong>L'arrêt est ajouté comme dans le jeu de base. Le mod ne sélectionne pas automatiquement de terminaux alternatifs.</li>
+<li><strong>En maintenant la touche ou le bouton d&#x27;activation : </strong>L'arrêt est ajouté et le mod sélectionne automatiquement les autres terminaux de la station comme alternatives.</li>
+</ul>
+<h3>Commandes d&#x27;activation</h3>
+<ul>
+<li><strong>Clavier et souris : </strong>Ctrl par défaut. Pour utiliser Alt, modifiez l'option Touche d'activation au clavier dans les options du mod.</li>
+<li><strong>Manette : </strong>R1 sur PlayStation ou RB sur Xbox. Ce bouton n'est pas configurable et ne dépend pas du réglage du clavier.</li>
+</ul>
+<p>R1 / RB conserve sa fonction habituelle d'ajout de points de passage. L'ajout d'un point de passage ne déclenche pas la sélection des terminaux alternatifs.</p>
+<h3>Conseils d&#x27;utilisation</h3>
+<p>Le jeu continue de choisir le terminal principal, de sélectionner automatiquement les marchandises et de gérer les paramètres de chargement. Lors des modifications suivantes, le mod ne sélectionne pas à nouveau les terminaux alternatifs que vous avez désélectionnés manuellement.</p>
+<p>Si un avertissement d'itinéraire apparaît, vérifiez les terminaux alternatifs et désélectionnez ceux que la ligne ne peut pas atteindre.</p>
 <h3>Installation et sauvegardes</h3>
-<p>Ce mod ne dépend d'aucun autre mod et peut être activé dans une partie déjà commencée. Si vous le désinstallez, la sélection automatique s'arrête ; les terminaux alternatifs déjà enregistrés restent en place.</p>
+<p>Aucun autre mod n'est nécessaire. Vous pouvez activer ce mod dans une partie déjà commencée. Les paramètres des terminaux alternatifs enregistrés dans la sauvegarde sont conservés après sa suppression.</p>
+<p><strong>Note de compatibilité : </strong>Après une mise à jour depuis une version qui proposait Maj (Shift), la touche d'activation au clavier revient à Ctrl par défaut. Si vous utilisiez Alt, choisissez de nouveau Alt dans les options du mod.</p>
 <h3>Projet et développement</h3>
-<p>Dépôt : <a href="https://github.com/spy20051623/spy_auto_alternative_terminals">https://github.com/spy20051623/spy_auto_alternative_terminals</a></p>
-<p>Ce mod a été développé par spy en collaboration avec une IA.</p>
+<p><a href="https://github.com/spy20051623/spy_auto_alternative_terminals">Dépôt GitHub</a></p>
+<p>Développé par spy en collaboration avec une IA.</p>
