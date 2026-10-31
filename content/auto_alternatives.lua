@@ -2,7 +2,7 @@
 -- 原版 autoLoadConfig 与主站台分配的输入、顺序和货物配置保持完整。
 local PREFIX = '[spy_auto_alternative_terminals] '
 local installed = false
-local activationAction = 'IA_SECONDARY_MODE'
+local keyboardActivationAction = 'IA_SECONDARY_MODE'
 local reportedInputError = false
 local wrappedActions = setmetatable({}, {__mode = 'k'})
 local activeAdd
@@ -45,7 +45,18 @@ local function wrapAction(common, actionName)
   local wrapper = function(...)
     -- 在实际新增动作开始时采样，不依赖稍后的提交时按键是否仍按住。
     local ok, held = pcall(function()
-      return api.gui.inputAction.modifierOnlyActionIsActive(activationAction)
+      local mode = api.util.getInputMode()
+      local inputMode = api.type['enum'].InputMode
+      local action
+      if mode == inputMode.Gamepad then
+        -- 手柄固定为 R1/RB；键盘的 Shift 也映射到此动作，必须区分输入模式。
+        action = 'IA_PRECISION_MODE'
+      elseif mode == inputMode.KeyboardMouse then
+        action = keyboardActivationAction
+      else
+        return false
+      end
+      return api.gui.inputAction.modifierOnlyActionIsActive(action)
     end)
     if not ok then
       if not reportedInputError then log('Modifier state unavailable: ' .. tostring(held)); reportedInputError = true end
@@ -121,15 +132,15 @@ local function install(lineUtil)
     return unpackValues(result, 1, result.n)
   end
   installed = true
-  log('Installed React UI hooks v1; hold ' .. activationAction .. ' to select alternatives.')
+  log('Installed React UI hooks v1; keyboard: ' .. keyboardActivationAction .. '; gamepad: R1/RB.')
 end
 
 return {
   install = function(action)
     if installed then return end
-    assert(action == nil or action == 'IA_SECONDARY_MODE' or action == 'IA_PRECISION_MODE'
-      or action == 'IA_ENHANCED_SNAP', 'unsupported activation modifier')
-    activationAction = action or activationAction
+    assert(action == nil or action == 'IA_SECONDARY_MODE' or action == 'IA_ENHANCED_SNAP',
+      'unsupported activation modifier')
+    keyboardActivationAction = action or keyboardActivationAction
     install(ug_require('::/gui/line_vehicle_mgmt/line_util.tl'))
   end,
 }

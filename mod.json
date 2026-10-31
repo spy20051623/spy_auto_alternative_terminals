@@ -7,13 +7,12 @@
   "cosmetic": false,
   "params": [
     {
-      "key": "activationModifier",
+      "key": "activationKey",
       "name": "activation_modifier_name",
       "tooltip": "activation_modifier_tooltip",
       "uiType": "ComboBox",
       "values": [
         "activation_ctrl",
-        "activation_shift",
         "activation_alt"
       ],
       "defaultIndex": 0

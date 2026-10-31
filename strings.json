@@ -1,30 +1,26 @@
 {
   "en": {
-    "activation_modifier_name": "Key for automatic alternative terminals",
-    "activation_modifier_tooltip": "Hold the selected key while adding a stop to select alternative terminals. Regular clicks add stops normally. If you remapped the corresponding game action, use its new key.",
-    "activation_ctrl": "Ctrl (bound to Secondary Mode)",
-    "activation_shift": "Shift (bound to Precision Mode)",
-    "activation_alt": "Alt (bound to Surface Snapping)"
+    "activation_modifier_name": "Keyboard activation key",
+    "activation_modifier_tooltip": "Without holding the selected key: Clicking a station adds a stop as in the base game. The mod does not automatically select alternative terminals.\nWhile holding the selected key: Clicking a station adds a stop and automatically selects the station's other terminals as alternatives.\nThis option only affects keyboard and mouse controls. The controller button is fixed at R1 (PlayStation) / RB (Xbox).",
+    "activation_ctrl": "Ctrl",
+    "activation_alt": "Alt"
   },
   "fr": {
-    "activation_modifier_name": "Touche de sélection des terminaux alternatifs",
-    "activation_modifier_tooltip": "Maintenez la touche choisie pendant l'ajout d'un arrêt pour sélectionner les terminaux alternatifs. Un clic normal ajoute l'arrêt comme d'habitude. Si vous avez modifié la touche de l'action correspondante dans le jeu, utilisez le nouveau raccourci.",
-    "activation_ctrl": "Ctrl – mode secondaire",
-    "activation_shift": "Maj (Shift) – mode précision",
-    "activation_alt": "Alt – accrochage aux surfaces"
+    "activation_modifier_name": "Touche d'activation au clavier",
+    "activation_modifier_tooltip": "Sans maintenir la touche choisie : Un clic sur une station ajoute un arrêt comme dans le jeu de base, sans sélection automatique des terminaux alternatifs.\nEn maintenant la touche choisie : Un clic sur une station ajoute un arrêt et sélectionne automatiquement ses autres terminaux comme alternatives.\nCe réglage concerne uniquement le clavier et la souris. À la manette, le bouton est fixé à R1 (PlayStation) / RB (Xbox).",
+    "activation_ctrl": "Ctrl",
+    "activation_alt": "Alt"
   },
   "zh_CN": {
-    "activation_modifier_name": "自动选择备用站台的按键",
-    "activation_modifier_tooltip": "按住所选按键新增停靠站时，自动勾选备用站台；普通点击照常添加。若修改过对应游戏动作的键位，请使用修改后的按键。",
-    "activation_ctrl": "Ctrl（绑定次要模式键）",
-    "activation_shift": "Shift（绑定精确模式键）",
-    "activation_alt": "Alt（绑定表面吸附键）"
+    "activation_modifier_name": "键盘触发按键",
+    "activation_modifier_tooltip": "未按住所选按键：点击车站时按原版方式添加，模组不自动勾选备用站台。\n按住所选按键：点击车站时新增停靠站，并自动勾选该车站的其他站台作为备用。\n此选项仅影响键鼠操作。手柄固定使用 R1（PlayStation）／RB（Xbox），不可配置。",
+    "activation_ctrl": "Ctrl",
+    "activation_alt": "Alt"
   },
   "zh": {
-    "activation_modifier_name": "自动选择备用站台的按键",
-    "activation_modifier_tooltip": "按住所选按键新增停靠站时，自动勾选备用站台；普通点击照常添加。若修改过对应游戏动作的键位，请使用修改后的按键。",
-    "activation_ctrl": "Ctrl（绑定次要模式键）",
-    "activation_shift": "Shift（绑定精确模式键）",
-    "activation_alt": "Alt（绑定表面吸附键）"
+    "activation_modifier_name": "键盘触发按键",
+    "activation_modifier_tooltip": "未按住所选按键：点击车站时按原版方式添加，模组不自动勾选备用站台。\n按住所选按键：点击车站时新增停靠站，并自动勾选该车站的其他站台作为备用。\n此选项仅影响键鼠操作。手柄固定使用 R1（PlayStation）／RB（Xbox），不可配置。",
+    "activation_ctrl": "Ctrl",
+    "activation_alt": "Alt"
   }
 }
